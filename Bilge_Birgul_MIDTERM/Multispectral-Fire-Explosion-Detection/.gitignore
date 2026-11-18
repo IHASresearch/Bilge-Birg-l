@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# YOLO & Ultralytics
+runs/
+*.cache
+dataset_multispectral/
+dataset/
+*.zip
+
+# Büyük Medya / Ham Videolar (İsteğe bağlı)
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# İşletim Sistemi
+.DS_Store
+Thumbs.db

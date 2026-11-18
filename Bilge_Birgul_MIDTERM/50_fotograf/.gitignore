@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# YOLO Training outputs and large checkpoints
+runs/
+*.cache
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
